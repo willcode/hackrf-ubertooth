@@ -1,0 +1,12 @@
+[submodule "firmware/hackrf"]
+	path = firmware/hackrf
+	url = https://github.com/willcode/hackrf.git
+	branch = hackrf-gpsdo
+[submodule "ubertooth"]
+	path = ubertooth
+	url = https://github.com/willcode/ubertooth.git
+	branch = hackrf-ubertooth
+[submodule "libbtbb"]
+	path = libbtbb
+	url = https://github.com/willcode/libbtbb.git
+	branch = hackrf-ubertooth

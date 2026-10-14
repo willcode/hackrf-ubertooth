@@ -1,0 +1,405 @@
+{
+ "clocks": {
+  "adclk_clk_$glb_clk": 40.0,
+  "clk": 48.0,
+  "daclk_clk_$glb_clk": 40.0
+ },
+ "io": {
+  "10": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[4]"
+  },
+  "11": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "101001"
+   },
+   "port": "capture_en_0__io"
+  },
+  "12": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "direction_0__io"
+  },
+  "13": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[3]"
+  },
+  "14": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "101001"
+   },
+   "port": "spi_0__cipo__io"
+  },
+  "15": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "spi_0__clk__io"
+  },
+  "16": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "spi_0__cs__io"
+  },
+  "17": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "spi_0__copi__io"
+  },
+  "18": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[7]"
+  },
+  "19": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[1]"
+  },
+  "2": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "101001"
+   },
+   "port": "trigger_out_0__io"
+  },
+  "20": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "host_clk_0__io"
+  },
+  "21": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[0]"
+  },
+  "23": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "disable_0__io"
+  },
+  "25": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[9]"
+  },
+  "26": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[8]"
+  },
+  "27": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[7]"
+  },
+  "28": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[6]"
+  },
+  "3": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[5]"
+  },
+  "31": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[5]"
+  },
+  "32": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[4]"
+  },
+  "34": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[3]"
+  },
+  "35": {
+   "cell": "SB_GB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "afe_clk_0__io"
+  },
+  "36": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[2]"
+  },
+  "37": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[1]"
+  },
+  "38": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110001"
+   },
+   "port": "dd_0__io[0]"
+  },
+  "39": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[7]"
+  },
+  "4": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[6]"
+  },
+  "40": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[6]"
+  },
+  "41": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[5]"
+  },
+  "42": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[4]"
+  },
+  "43": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[3]"
+  },
+  "44": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[2]"
+  },
+  "45": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[1]"
+  },
+  "46": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000000"
+   },
+   "port": "da_0__io[0]"
+  },
+  "47": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "fpga_clk_0__io"
+  },
+  "48": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "trigger_in_0__io"
+  },
+  "6": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "110000"
+   },
+   "port": "host_data_0__io[2]"
+  },
+  "9": {
+   "cell": "SB_IO",
+   "parameters": {
+    "IO_STANDARD": "SB_LVCMOS",
+    "PIN_TYPE": "000001"
+   },
+   "port": "q_invert_0__io"
+  }
+ },
+ "pins": {
+  "afe_clk_0__io": "35",
+  "capture_en_0__io": "11",
+  "da_0__io[0]": "46",
+  "da_0__io[1]": "45",
+  "da_0__io[2]": "44",
+  "da_0__io[3]": "43",
+  "da_0__io[4]": "42",
+  "da_0__io[5]": "41",
+  "da_0__io[6]": "40",
+  "da_0__io[7]": "39",
+  "dd_0__io[0]": "38",
+  "dd_0__io[1]": "37",
+  "dd_0__io[2]": "36",
+  "dd_0__io[3]": "34",
+  "dd_0__io[4]": "32",
+  "dd_0__io[5]": "31",
+  "dd_0__io[6]": "28",
+  "dd_0__io[7]": "27",
+  "dd_0__io[8]": "26",
+  "dd_0__io[9]": "25",
+  "direction_0__io": "12",
+  "disable_0__io": "23",
+  "fpga_clk_0__io": "47",
+  "host_clk_0__io": "20",
+  "host_data_0__io[0]": "21",
+  "host_data_0__io[1]": "19",
+  "host_data_0__io[2]": "6",
+  "host_data_0__io[3]": "13",
+  "host_data_0__io[4]": "10",
+  "host_data_0__io[5]": "3",
+  "host_data_0__io[6]": "4",
+  "host_data_0__io[7]": "18",
+  "q_invert_0__io": "9",
+  "spi_0__cipo__io": "14",
+  "spi_0__clk__io": "15",
+  "spi_0__copi__io": "17",
+  "spi_0__cs__io": "16",
+  "trigger_in_0__io": "48",
+  "trigger_out_0__io": "2"
+ },
+ "set_frequency": {
+  "adclk_clk": 40.0,
+  "afe_clk_0__io": 40.0,
+  "daclk_clk": 40.0
+ },
+ "source": {
+  "bitstream_sha256": "76140f7f9310057b9ea97626b1c4b1aa5e2e295a793a97b78e782d91f6f66d05",
+  "image": "0_standard",
+  "tools": {
+   "amaranth": "Amaranth 0.5.8",
+   "nextpnr": "\"yowasp-nextpnr-ice40\" -- Next Generation Place and Route (Version nextpnr-0.11.1)",
+   "recorded": {
+    "nextpnr": "\"yowasp-nextpnr-ice40\" -- Next Generation Place and Route (Version nextpnr-0.11.1)",
+    "nextpnr_command": "yowasp-nextpnr-ice40",
+    "recorded": "2026-10-01T06:30:51-04:00",
+    "yosys": "Yosys 0.68 (git sha1 38e001a6f, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+    "yosys_command": "yowasp-yosys"
+   },
+   "yosys": "Yosys 0.68 (git sha1 38e001a6f, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)"
+  }
+ },
+ "spi": [
+  {
+   "BUS_ADDR74": "0b0010",
+   "pins": {
+    "SCKI": [
+     "15"
+    ],
+    "SCSNI": [
+     "16"
+    ],
+    "SI": [
+     "17"
+    ],
+    "SO": [
+     "14"
+    ],
+    "SOE": [
+     "14"
+    ]
+   }
+  }
+ ]
+}

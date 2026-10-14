@@ -1,0 +1,15 @@
+amaranth==0.5.8
+amaranth-boards @ git+https://github.com/amaranth-lang/amaranth-boards.git@23c66d68045831de0a372c8c237274d74c71ef4e
+click==8.5.0
+Jinja2==3.1.6
+jschon==0.11.1
+lz4==4.4.5
+MarkupSafe==3.0.3
+numpy==2.5.3
+platformdirs==4.12.2
+pyvcd==0.4.2
+rfc3986==2.0.0
+wasmtime==47.0.1
+yowasp-nextpnr-ice40==0.11.1.0.post826
+yowasp-runtime==1.96
+yowasp-yosys==0.69.0.0.post1233
