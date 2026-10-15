@@ -113,7 +113,7 @@ class Top(Elaboratable):
 
         # Bluetooth BR channelizer: 16 channels of 1 MHz at 16 Msps, one
         # 16-bit word of decisions per symbol (1 M words/s) instead of I/Q.
-        # BR_DEBUG=1 at build time adds the debug snapshots (gateware/check_snap.py)
+        # BR_DEBUG=1 at build time adds the debug snapshots (br/check_snap.py)
         m.submodules.br = br = BRChannelizer(debug=os.environ.get("BR_DEBUG") == "1")
         br_on = Signal()
         br_eth = Signal(4)
